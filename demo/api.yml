@@ -1,0 +1,6 @@
+openapi: "3.0.2"
+
+components:
+  schemas:
+    address:
+      $ref: "household/address.yml#/components/schemas/household"

@@ -1,0 +1,21 @@
+components:
+  schemas:
+    street:
+      type: string
+
+    house_number:
+      type: string
+
+    household:
+      type: object
+      required:
+        - first_name
+        - last_name
+        - person
+      properties:
+        street:
+          $ref: '#/components/schemas/street'
+        house_number:
+          $ref: '#/components/schemas/house_number'
+        person:
+          $ref: 'person.yml#/components/schemas/person'

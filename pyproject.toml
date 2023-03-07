@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "datamodel-codegen-ref-bug"
+version = "0.1.0"
+description = ""
+authors = []
+readme = "README.md"
+packages = [{include = "datamodel_codegen_ref_bug"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+datamodel-code-generator = "0.17.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
